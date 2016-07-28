@@ -1,0 +1,53 @@
+<!doctype html>
+<html>
+<head>
+<title>page1</title>
+<style type="text/css">
+</style>
+</head>
+
+<body>
+<form action="dosomething" method="post">
+	Username:<input type="text" name="username" size="15" maxlength="15" value="Enter your name" />
+	
+	<br />
+	Sex:	male:<input type="radio" name="sex" value="male" />
+		female:<input type="radio" name="sex" value="female" />
+	
+	<br />
+	food:
+		eggroll:<input type="checkbox" name="food" value="egg roll" />
+		aloo paratha:<input type="checkbox" name="food" value="paratha" />
+		momo:<input type="checkbox" name="food" value="momo" />
+		chowmin:<input type="checkbox" name="food" value="chowmin" />
+		
+	<br />
+	educational qualification:
+		<select name="education">
+			<option value="UG">B.Tech</option>
+			<option value="PG">M.Tech</option>
+			<option value="PG">Phd</option>
+			<option value="General">BSc</option>
+			<option value="MD">MSc</option>
+			<option value="MS">GRE</option>
+		</select>
+	<br />
+	Remarks:
+	<br />
+	
+	<textarea name="comment" rows="10" cols="40">
+	Enter your comment
+	</textarea>
+	
+	<br />
+	<p>upload any proof</p>
+	<input type="file" name="choose"  />
+	
+	<br />
+	<br />
+	<input type="submit" value="submit" />
+	
+	
+</form>
+</body>
+</html>
